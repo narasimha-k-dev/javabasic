@@ -1,0 +1,24 @@
+package java_programs_te;
+
+import java.util.Scanner;
+
+public class Looping23 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  Scanner sc =new Scanner(System.in);
+	         int i;
+	         while(true) {
+	        	 System.out.println("enter number :");
+	        	 i=sc.nextInt();
+	        	 if(i%7==0) {
+	        		 System.out.println("the entered number is divisible by 7, the loop is breaking");
+	        		 break;
+	        	 }
+	         }
+	         sc.close();
+		
+
+	}
+
+}
